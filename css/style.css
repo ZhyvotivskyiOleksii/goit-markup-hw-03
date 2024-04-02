@@ -203,8 +203,7 @@ address{
 .title-advantages{
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 32px; 
+    text-align: center; 
 }
 
 .team-box{
@@ -213,28 +212,20 @@ address{
 
 }
 
-.team-box ul {
+.team-list{
+    gap: 24px;
     display: flex; 
-    justify-content: space-between; 
     
 }
 
 
-  .team-box li.team-card {
-    margin-bottom: 24px; 
-    width: 264px;
-    text-align: center; 
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); 
-    border-radius: 4px;
 
 
-  }
-  
+
+
   .team-card img {
     width: 100%; 
     height: auto; 
-    border-radius: 0 0 4px 4px
-    
   }
 
 
@@ -242,7 +233,9 @@ address{
 .team-card{
     background-color: #FFFFFF;
     margin-right: 24px;
-    
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+    background-color: #FFFFFF;
 }
 .team-name{
     font-weight: 500;
@@ -250,11 +243,15 @@ address{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
+    text-align: center;
     
 }
 
+.tim-nameinfo{
+    padding: 32px 0;
+
+}
 
 .portfolio-box h2 {
     text-align: center; 
