@@ -54,13 +54,16 @@ ul, ol {
     list-style: none;
 }
 
-.nav-menu{
+.nav-menu-item{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+}
+
+.nav-menu{
     gap: 40px;
-    margin-right: 40px
 }
 
 .nav-menu:hover{
@@ -87,7 +90,9 @@ ul, ol {
     color: #404bbf;
 }
 
-
+.address-list{
+    gap: 40px;
+}
 .logo-brand {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
