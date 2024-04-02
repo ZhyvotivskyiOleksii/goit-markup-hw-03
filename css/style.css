@@ -117,6 +117,7 @@ address{
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding: 188px 0;
 }
 
 
@@ -192,9 +193,7 @@ address{
 }
 
 
-.adv-box h2{
-    visibility: hidden;
-}
+
 
 .title-advantages{
     line-height: 1.5;
@@ -314,5 +313,3 @@ address{
 .logo-footer{
     color: #f4f4fd;
 }
-
-
