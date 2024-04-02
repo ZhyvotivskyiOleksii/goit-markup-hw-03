@@ -9,6 +9,9 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 0;
 }
 
+img{
+    display: block;
+}
 .section{
     padding-bottom: 120px;
     padding-top: 120px;
@@ -22,6 +25,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .header{
     padding: 24px 156px;
+    border-bottom: 1px solid #e7e9fc
 }
 .header nav {
     display: flex;  
@@ -30,7 +34,6 @@ h1,h2,h3,h4,h5,h6,p{
 
 .header nav ul {
     display: flex;
-    margin-left: 76px;
 }
 
 .header .address ul {
@@ -43,10 +46,7 @@ h1,h2,h3,h4,h5,h6,p{
     align-items: center;
 }
 
-.header nav ul li,
-.header .address ul li {
-  margin-right: 40px; 
-}
+
 a {
     text-decoration: none;
 }
@@ -59,6 +59,8 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    gap: 40px;
+    margin-right: 40px
 }
 
 .nav-menu:hover{
@@ -94,6 +96,7 @@ ul, ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
 
 .logo-span {
@@ -297,6 +300,8 @@ address{
 
 .footer{
     background-color: #2e2f42;
+    height: 312px;
+    padding: 100px 0 100px 0;
 }
 .txt-footer{
     line-height: 1.5;
@@ -311,7 +316,3 @@ address{
 }
 
 
-
-.footer-box{
-    padding: 120px 0;
-}
